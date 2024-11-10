@@ -47,6 +47,13 @@
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 
+		<dependency>
+			<!-- For Security-->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<!--after 5.7 WebSecurityConfigurerAdapter removed because no need to override	-->
+
 	</dependencies>
 
 	<build>
